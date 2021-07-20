@@ -101,23 +101,16 @@
                         <hr class="divider" />
                     </div>
 
-
-
-                    <div class="sb-sidenav-menu-heading">
-
-                        <a href="#" class="nav-link small pt-0"><i class="fab fa-facebook"></i> Facebook</a>
-                        <a href="#" class="nav-link small pt-0"><i class="fab fa-instagram"></i> Instagram</a>
-                        <a href="#" class="nav-link small pt-0 mb-4"><i class="fab fa-twitter-square"></i> Twitter</a>
-
-                    </div>
-
-
-
-
                 </div>
 
 
+                <div class="sb-sidenav-menu">
 
+                    <a href="#" class="nav-link small pt-0"><i class="fab fa-fw fa-facebook"></i> Facebook</a>
+                    <a href="#" class="nav-link small pt-0"><i class="fab fa-fw fa-instagram"></i> Instagram</a>
+                    <a href="#" class="nav-link small pt-0 mb-4"><i class="fab fa-fw fa-twitter-square"></i> Twitter</a>
+
+                </div>
 
             </div>
             <!-- Akhir sb-sidenav-menu -->

@@ -19,17 +19,17 @@
                     <form action="" method="POST" name="contact-galery" class="mb-3 mt-3">
                         <div class="form-group">
                             <label for="nama">Masukan nama anda :</label>
-                            <input type="text" name="nama" id="nama" class="form-control" placeholder="Silahkan masukkan nama anda disini ....">
+                            <input type="text" name="nama" id="nama" class="form-control" placeholder="Silahkan masukkan nama anda disini ...." required>
                         </div>
 
                         <div class="form-group mt-2">
                             <label for="telepon" class="mt-2">Masukan nomor telepon anda :</label>
-                            <input type="text" name="telepon" id="telepon" class="form-control" placeholder="Silahkan masukkan nomor telepon anda disini ....">
+                            <input type="text" name="telepon" id="telepon" class="form-control" placeholder="Silahkan masukkan nomor telepon anda disini ...." required>
                         </div>
 
                         <div class="form-group">
                             <label for="email" class="mt-2">Masukan email anda :</label>
-                            <input type="text" name="email" id="email" class="form-control" placeholder="Silahkan masukkan email anda disini ....">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Silahkan masukkan email anda disini ...." required>
                         </div>
 
                         <div class="form-group">

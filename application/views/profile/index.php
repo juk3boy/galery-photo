@@ -11,11 +11,11 @@
 
         <div class="container mt-3">
             <div class="row justify-content-md-center">
-                <div class="col col-lg-3">
+                <div class="col col-lg-3 text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima aliquid iste voluptas doloribus omnis in nihil blanditiis delectus vel laudantium autem, rerum dolore quibusdam tempora hic officiis voluptate amet!
                 </div>
 
-                <div class="col col-lg-3">
+                <div class="col col-lg-3 text-center">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit numquam explicabo aut odit harum. Explicabo, voluptas neque. Sit minus impedit quo rerum neque veniam fuga, quaerat nostrum accusamus. Ducimus, dicta.
                 </div>
             </div>

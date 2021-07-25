@@ -1,7 +1,7 @@
     </main>
     </div>
 
-    <footer class="py-4 bg-light mt-auto text-center">
+    <footer class="py-3 bg-light mt-auto text-center">
         <div class="container-fluid px-4">
             <div class="d-flex align-items-center justify-content-center small">
                 <div class="text-muted">Copyright &copy; My Protofolio 1998 - <?= date('Y') ?></div>

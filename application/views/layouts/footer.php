@@ -82,7 +82,7 @@
 
 
 
-    <script>
+    <!-- <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbx5NVtBc2q_NTQrdAWlWYbYpfNL4XwP0RdThEUNdchUoPLRLKCjQmYYoqnALe9Ce3wD/exec'
         const form = document.forms['contact-galery'];
         const btnKirim = document.querySelector('.btn-kirim');
@@ -116,7 +116,7 @@
 
                 .catch(error => console.error('Error!', error.message))
         })
-    </script>
+    </script> -->
 
 
 

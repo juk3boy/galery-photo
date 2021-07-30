@@ -19,22 +19,26 @@
                     <form action="" method="POST" name="contact-galery" class="mb-3 mt-3">
                         <div class="form-group">
                             <label for="nama">Masukan nama anda :</label>
-                            <input type="text" name="nama" id="nama" class="form-control" placeholder="Silahkan masukkan nama anda disini ...." required>
+                            <input type="text" name="nama" id="nama" class="form-control" placeholder="Silahkan masukkan nama anda disini ...." value="">
+                            <?= form_error('nama') ?>
                         </div>
 
                         <div class="form-group mt-2">
                             <label for="telepon" class="mt-2">Masukan nomor telepon anda :</label>
                             <input type="text" name="telepon" id="telepon" class="form-control" placeholder="Silahkan masukkan nomor telepon anda disini ...." required>
+                            <?= form_error('telepon') ?>
                         </div>
 
                         <div class="form-group">
                             <label for="email" class="mt-2">Masukan email anda :</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Silahkan masukkan email anda disini ...." required>
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Silahkan masukkan email anda disini ...." required>
+                            <?= form_error('email') ?>
                         </div>
 
                         <div class="form-group">
                             <label for="pesan" class="mt-2">Isi pesan anda :</label>
                             <textarea width="100" name="pesan" id="pesan" class="form-control" placeholder="Isi pesan anda disini ...." style="resize: none;"> </textarea>
+                            <?= form_error('pesan') ?>
                         </div>
 
 

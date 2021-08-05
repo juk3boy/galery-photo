@@ -39,12 +39,13 @@ class Contact_model extends CI_Model
             [
                 'field' => 'email',
                 'label' => 'Email',
-                'rules' => 'trim|required|valid_email'
+                'rules' => 'trim|required|valid_email|is_unique[contact.email]',
+                'errors' => ['is_unique' => 'This %s already exists !!!']
             ],
 
             [
                 'field' => 'pesan',
-                'label' => 'Pesam',
+                'label' => 'Pesan',
                 'rules' => 'required'
             ],
         ];
@@ -96,7 +97,7 @@ class Contact_model extends CI_Model
         ];
 
         /** create($data) -> diambil dari model create yg sudah dibuat di MY_Model */
-        $add = $this->db->insert($data);
+        $add = $this->db->insert('contact', $data);
 
         /** variable user ($user) ini hanya menampilkan nilai baliknya saja */
 
@@ -107,10 +108,6 @@ class Contact_model extends CI_Model
             'email'         => $data['email'],
             'pesan'         => $data['pesan']
         ];
-
-
-        var_dump($sess_data);
-        die;
 
 
         $this->session->set_userdata($sess_data);
